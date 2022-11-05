@@ -16,11 +16,16 @@ font-family: 'Roboto', sans-serif;*/
   max-width: 200px;
 }
 
-.introduction {
+.highlight-text {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-align: center;
   margin: auto;
+  padding: 50px;
+}
+
+body {
+  background-color: black;
 }
 
 h1 {
@@ -29,4 +34,8 @@ h1 {
 
 h2 {
   color: var(--branding-color);
+}
+
+h3 {
+  color: #ffffff;
 }
