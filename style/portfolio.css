@@ -4,7 +4,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
 :root {
-  --branding-color: #6667ab;
+  --branding-color: #ffc93c;
   --secondary-color: #ffffff;
 }
 
@@ -17,7 +17,10 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .introduction {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   text-align: center;
+  margin: auto;
 }
 
 h1 {
