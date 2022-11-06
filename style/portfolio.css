@@ -12,8 +12,18 @@ font-family: 'Roboto', sans-serif;*/
   background-color: black;
 }
 
+.container {
+  margin: 20px;
+}
+
 .designer-photo {
   max-width: 200px;
+}
+
+.photo {
+  display: block;
+  max-height: 300px;
+  margin: 0 auto;
 }
 
 .highlight-text {
@@ -38,4 +48,27 @@ h2 {
 
 h3 {
   color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+
+.question,
+.skills {
+  font-weight: bold;
+  color: var(--branding-color);
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
 }
