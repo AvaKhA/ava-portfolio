@@ -70,5 +70,20 @@ ul {
   margin-top: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
+  .designer-photo {
+    float: left !important;
+    max-width: inherit;
+    display: block;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 325px) {
+  .designer-photo {
+    display: none;
+  }
+  .hero-button {
+    font-size: 10px;
+  }
 }
