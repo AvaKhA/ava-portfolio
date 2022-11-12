@@ -83,6 +83,10 @@ p {
   color: var(--branding-color);
 }
 
+.skills-photo {
+  max-width: 50%;
+}
+
 @media (max-width: 600px) {
   .designer-photo {
     float: left !important;
