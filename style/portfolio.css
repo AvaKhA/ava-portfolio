@@ -16,8 +16,12 @@ font-family: 'Roboto', sans-serif;*/
   margin: 20px;
 }
 
-.designer-photo {
-  max-width: 200px;
+.heading-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
 }
 
 .photo {
@@ -26,12 +30,9 @@ font-family: 'Roboto', sans-serif;*/
   margin: 0 auto;
 }
 
-.heading-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  text-align: center;
-  margin: auto;
-  padding: 50px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -57,10 +58,12 @@ ul {
   padding: 0px;
 }
 
-.question,
-.skills {
-  font-weight: bold;
-  color: var(--branding-color);
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 0px 100px;
+  color: #ffffff;
 }
 
 .primary-button {
@@ -68,6 +71,16 @@ ul {
   font-weight: 900;
   text-align: center;
   margin-top: 30px;
+}
+
+.designer-photo {
+  max-width: 200px;
+}
+
+.question,
+.skills {
+  font-weight: bold;
+  color: var(--branding-color);
 }
 
 @media (max-width: 600px) {
