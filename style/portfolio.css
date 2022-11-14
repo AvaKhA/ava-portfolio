@@ -88,6 +88,14 @@ p {
   max-width: 50%;
 }
 
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 600px) {
   .designer-photo {
     float: left !important;
