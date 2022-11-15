@@ -3,6 +3,12 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --branding-color: #ffc93c;
   --secondary-color: #ffffff;
@@ -13,7 +19,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .container {
-  margin: 20px;
+  margin: auto;
 }
 
 .heading-text {
@@ -25,8 +31,6 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .photo {
-  display: block;
-  max-height: 300px;
   margin: 0 auto;
 }
 
@@ -62,7 +66,6 @@ p {
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin: auto;
-  padding: 0px 100px;
   color: #ffffff;
 }
 
@@ -88,11 +91,26 @@ p {
   max-width: 50%;
 }
 
-footer a {
+.description {
+  padding: 20px;
+}
+
+footer {
+  margin: 10px;
+}
+
+footer .footer-email {
   color: #ffffff;
+  padding: 10px;
 }
 
 footer a:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 10px;
+
   color: var(--branding-color);
 }
 
@@ -103,12 +121,23 @@ footer a:hover {
     display: block;
     margin: 50px;
   }
+
+  .description {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 325px) {
   .designer-photo {
     display: none;
   }
+
   .hero-button {
     font-size: 10px;
   }
